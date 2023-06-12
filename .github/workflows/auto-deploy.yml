@@ -40,6 +40,7 @@ jobs:
       # 安装依赖
       - name: Install dependencies
         run: |
+          apt-get install g++ build-essential
           npm install
           npm ls --depth 0
 
