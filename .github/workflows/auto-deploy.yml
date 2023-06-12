@@ -1,5 +1,5 @@
 # 部署名称随意
-name: 自动发布-auto-deploay-hexo
+name: 自动发布-auto-deploy-hexo
 # 触发条件：在 push 到 master 分支后触发
 on:
   push:
