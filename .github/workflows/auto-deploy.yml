@@ -27,7 +27,7 @@ jobs:
         # 设置 node.js 环境
         uses: actions/setup-node@v1
         with:
-          node-version: '16.x'
+          node-version: '6.x'
 
       # 下载网站源码
       - name: Cache node modules
@@ -40,7 +40,6 @@ jobs:
       # 安装依赖
       - name: Install dependencies
         run: |
-          sudo apt-get install g++ build-essential
           npm install
           npm ls --depth 0
 
